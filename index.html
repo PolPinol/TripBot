@@ -374,53 +374,6 @@
 	  language-code="en"
 	></df-messenger>
 
-	 <script>
-			$(document).ready(function(){
-				$(".select2_el").select2({
-				});
-			});
-			</script>
-	<script>
-		$(document).ready(function () {
-			//Toggle fullscreen
-			$(".chat-bot-icon").click(function (e) {
-				$(this).children('img').toggleClass('hide');
-				$(this).children('svg').toggleClass('animate');
-				$('.chat-screen').toggleClass('show-chat');
-			});
-			$('.chat-mail button').click(function () {
-				$('.chat-mail').addClass('hide');
-				$('.chat-body').removeClass('hide');
-				$('.chat-input').removeClass('hide');
-				$('.chat-header-option').removeClass('hide');
-			});
-			$('.end-chat').click(function () {
-				$('.chat-body').addClass('hide');
-				$('.chat-input').addClass('hide');
-				$('.chat-session-end').removeClass('hide');
-				$('.chat-header-option').addClass('hide');
-			});
-		});
-	</script>
-
-	</div>
-	<!-- END fh5co-page -->
-
-	</div>
-	<!-- END fh5co-wrapper -->
-
-	<!-- jQuery -->
-
-	<script>
-		const button = document.getElementById("butid");
-		const popup = document.getElementById("popup");
-		popup.style.display = 'none';
-
-		button.addEventListener('click', ()=>{
-			popup.style.display === 'none' ? popup.style.display = 'block' : popup.style.display = 'none';
-		})
-	</script>
-
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
